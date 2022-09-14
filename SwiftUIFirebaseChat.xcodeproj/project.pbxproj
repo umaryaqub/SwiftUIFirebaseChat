@@ -17,6 +17,8 @@
 		879AD5B328A9A5D2000B042C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 879AD5B228A9A5D2000B042C /* FirebaseStorage */; };
 		879AD5B528A9A7C7000B042C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */; };
 		879AD5B628A9A7C7000B042C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */; };
+		87A80DD128D1529A00DF90FE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A80DD028D1529A00DF90FE /* ImagePicker.swift */; };
+		87A80DD228D1529A00DF90FE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A80DD028D1529A00DF90FE /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,7 @@
 		878DB14128A482820056D86E /* SwiftUIFirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878DB14328A482820056D86E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87A80DD028D1529A00DF90FE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 				878DB13528A482810056D86E /* LoginView.swift */,
 				879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */,
 				878DB13628A482820056D86E /* Assets.xcassets */,
+				87A80DD028D1529A00DF90FE /* ImagePicker.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -193,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A80DD128D1529A00DF90FE /* ImagePicker.swift in Sources */,
 				878DB14628A482820056D86E /* LoginView.swift in Sources */,
 				878DB14428A482820056D86E /* SwiftUIFirebaseChatApp.swift in Sources */,
 			);
@@ -202,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A80DD228D1529A00DF90FE /* ImagePicker.swift in Sources */,
 				878DB14728A482820056D86E /* LoginView.swift in Sources */,
 				878DB14528A482820056D86E /* SwiftUIFirebaseChatApp.swift in Sources */,
 			);
