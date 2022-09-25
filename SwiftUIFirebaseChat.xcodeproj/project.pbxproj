@@ -20,6 +20,7 @@
 		879AD5B628A9A7C7000B042C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */; };
 		87A80DD128D1529A00DF90FE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A80DD028D1529A00DF90FE /* ImagePicker.swift */; };
 		87A80DD228D1529A00DF90FE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A80DD028D1529A00DF90FE /* ImagePicker.swift */; };
+		87AAAF9428DA700800D61D91 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AAAF9328DA700800D61D91 /* MainMessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		878DB14328A482820056D86E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		87A80DD028D1529A00DF90FE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		87AAAF9328DA700800D61D91 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,22 +59,23 @@
 		878DB12E28A482810056D86E = {
 			isa = PBXGroup;
 			children = (
-				878DB13328A482810056D86E /* Shared */,
+				878DB13328A482810056D86E /* SwiftUIFirebaseChat */,
 				878DB14228A482820056D86E /* macOS */,
 				878DB13C28A482820056D86E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		878DB13328A482810056D86E /* Shared */ = {
+		878DB13328A482810056D86E /* SwiftUIFirebaseChat */ = {
 			isa = PBXGroup;
 			children = (
+				87AAAF9228DA6FF300D61D91 /* MainMessages */,
 				878DB13428A482810056D86E /* SwiftUIFirebaseChatApp.swift */,
 				878DB13528A482810056D86E /* LoginView.swift */,
 				879AD5B428A9A7C7000B042C /* GoogleService-Info.plist */,
 				878DB13628A482820056D86E /* Assets.xcassets */,
 				87A80DD028D1529A00DF90FE /* ImagePicker.swift */,
 			);
-			path = Shared;
+			path = SwiftUIFirebaseChat;
 			sourceTree = "<group>";
 		};
 		878DB13C28A482820056D86E /* Products */ = {
@@ -90,6 +93,14 @@
 				878DB14328A482820056D86E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		87AAAF9228DA6FF300D61D91 /* MainMessages */ = {
+			isa = PBXGroup;
+			children = (
+				87AAAF9328DA700800D61D91 /* MainMessagesView.swift */,
+			);
+			path = MainMessages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87A80DD128D1529A00DF90FE /* ImagePicker.swift in Sources */,
+				87AAAF9428DA700800D61D91 /* MainMessagesView.swift in Sources */,
 				878DB14628A482820056D86E /* LoginView.swift in Sources */,
 				878DB14428A482820056D86E /* SwiftUIFirebaseChatApp.swift in Sources */,
 			);
